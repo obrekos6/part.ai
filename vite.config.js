@@ -1,4 +1,9 @@
 import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/part.ai/', // ← название твоего репозитория
+});
 
 export default defineConfig({
   server: {
